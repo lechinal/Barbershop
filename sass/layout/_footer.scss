@@ -1,0 +1,35 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    padding: 57px 0 55px 0;
+    background-color: var(--alt-background-color);
+}
+
+.footer-copy {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--second-text-color);
+}
+
+.footer-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.footer-item {
+    margin-right: 40px;
+}
+
+.footer-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--third-text-color);
+        &:hover,
+        &:focus{
+            color: var(--accent-color);
+        }
+}

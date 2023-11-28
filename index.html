@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="">
+            <svg class="logo-icon" width="66" height="55">
+              <use href="./img/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link link current">About Us</a>
+            </li>
+            <li class="header-item">
+              <a href="#prices" class="header-link link">Services and prices</a>
+            </li>
+            <li class="header-item">
+              <a href="#masters" class="header-link link">Masters</a>
+            </li>
+            <li class="header-item">
+              <a href="#online" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-connect">
+          <a class="header-tel link" href="tel:+380441111111">
+            +38 044 111 11 11</a
+          >
+          <button class="header-btn btn" type="button" data-modal-open>
+            Online booking
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-left">
+            <ul class="hero-list list">
+              <li class="hero-item">
+                <a href="" class="hero-link link">Instagram</a>
+              </li>
+              <li class="hero-item">
+                <a href="" class="hero-link link">Youtube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-right">
+            <p class="hero-pre-title pre-title" lang="en">
+              A hair salon for men in Kyiv
+            </p>
+            <h1 class="hero-title" lang="en">BarberShop</h1>
+            <p class="hero-after-title after-title">
+              We are experts in fashionable men's haircuts. We work quickly,
+              carefully, and with taste.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about-container">
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                src="./img/about-img-1.jpg"
+                alt="shaves beard"
+                width="270"
+                height="445"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                src="./img/about-img-2.jpg"
+                alt="shaving details"
+                width="270"
+                height="445"
+              />
+            </li>
+          </ul>
+          <div class="about-right">
+            <p class="about-pre-title pre-title">About Us</p>
+            <h2 class="about-title section-title">
+              The best barbershop in your city
+            </h2>
+            <p class="about-after-title after-title">
+              If you want to add more confidence to your image – you definitely
+              need to come to us.
+            </p>
+            <p class="about-text">
+              We are a team that never rests on its laurels and craves change.
+              And when you fall into the hands of our master, you will never be
+              the same. We are a team always in sync with our clients. That's
+              why we are always ready to enhance everyone who comes to us!
+            </p>
+            <button type="button" class="about-btn btn">online booking</button>
+          </div>
+        </div>
+      </section>
+      <section class="prices" id="prices">
+        <div class="container">
+          <p class="prices-pre-title pre-title">
+            Spend time in the company of the best masters
+          </p>
+          <h2 class="prices-title section-title">Services and Prices</h2>
+          <div class="prices-wrap">
+            <ul class="prices-list prices-list-light list">
+              <li class="prices-item">
+                <p class="prices-item-text">Men's haircut</p>
+                <span class="prices-item-text prices-item-description">
+                  от 300 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Beard trimming</p>
+                <span class="prices-item-text prices-item-description">
+                  от 200 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Mustache trimming</p>
+                <span class="prices-item-text prices-item-description">
+                  от 200 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Straight razor shaving</p>
+                <span class="prices-item-text prices-item-description">
+                  от 200 грн.
+                </span>
+              </li>
+            </ul>
+            <ul class="prices-list prices-list-dark list">
+              <li class="prices-item">
+                <p class="prices-item-text">Trainee haircut</p>
+                <span class="prices-item-text prices-item-description">
+                  от 50 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Clipper cut</p>
+                <span class="prices-item-text prices-item-description">
+                  от 200 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">
+                  Children's haircut (up to 12 years)
+                </p>
+                <span class="prices-item-text prices-item-description">
+                  от 300 грн.
+                </span>
+              </li>
+              <li class="prices-item">
+                <p class="prices-item-text">Gray hair blending</p>
+                <span class="prices-item-text prices-item-description">
+                  от 200 грн.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="prices-btn btn" data-modal-open>
+            online booking
+          </button>
+        </div>
+      </section>
+      <section class="reasons">
+        <div class="container reasons-container">
+          <div class="reasons-left">
+            <ul class="reasons-list list">
+              <li class="reasons-item">
+                <span class="reasons-count">600</span>
+                <p class="reasons-item-text">Satisfied customers per day</p>
+              </li>
+              <li class="reasons-item">
+                <span class="reasons-count">50</span>
+                <p class="reasons-item-text">Awards for excellent service</p>
+              </li>
+              <li class="reasons-item">
+                <span class="reasons-count">20</span>
+                <p class="reasons-item-text">Best masters in Kyiv.</p>
+              </li>
+              <li class="reasons-item">
+                <span class="reasons-count">100</span>
+                <p class="reasons-item-text">Gifts for regular clients.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reasons-right">
+            <p class="reasons-pre-title pre-title">old-school tradition</p>
+            <h2 class="reasons-title section-title">Why choose us??</h2>
+            <p class="reasons-after-title after-title">
+              People speak only good things about us. But it's better to see and
+              experience once than to read 10 times.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="masters" id="masters">
+        <div class="container masters-container">
+          <p class="masters-pre-title pre-title">
+            For those who truly appreciate ambiance.
+          </p>
+          <h2 class="masters-title section-title">Our masters</h2>
+          <ul class="masters-list list">
+            <li class="masters-item">
+              <img
+                src="./img/masters-img-1.jpg"
+                alt="giving the client a haircut"
+                width="370"
+                height="346"
+              />
+              <div class="masters-item-content">
+                <h3 lang="en" class="masters-item-title">John Smith</h3>
+                <p lang="en" class="masters-item-text">Extreme Barber</p>
+                <ul class="masters-social-list list">
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="masters-item">
+              <img
+                src="./img/masters-img-2.jpg"
+                alt="giving the client a haircut"
+                width="370"
+                height="346"
+              />
+              <div class="masters-item-content">
+                <h3 lang="en" class="masters-item-title">Michele Doe</h3>
+                <p lang="en" class="masters-item-text">Extreme Barber</p>
+                <ul class="masters-social-list list">
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="masters-item">
+              <img
+                src="./img/masters-img-3.jpg"
+                alt="giving the client a haircut"
+                width="370"
+                height="346"
+              />
+              <div class="masters-item-content">
+                <h3 lang="en" class="masters-item-title">Alan Black</h3>
+                <p lang="en" class="masters-item-text">Extreme Barber</p>
+                <ul class="masters-social-list list">
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="masters-social-item">
+                    <a href="" class="masters-social-link link">
+                      <svg class="masters-social-icon" width="20" height="20">
+                        <use href="./img/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <p class="gallery-pre-title pre-title">
+            In Latin, 'barba' means 'beard'.
+          </p>
+          <h2 class="visually-hidden">Gallery</h2>
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <img
+                src="./img/gallery-img-1.jpg"
+                alt="giving the client a haircut"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/gallery-img-2.jpg"
+                alt="giving the client a haircut"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/gallery-img-3.jpg"
+                alt="giving the client a haircut"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/gallery-img-4.jpg"
+                alt="giving the client a haircut"
+                width="270"
+                height="360"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="contact-wrapp">
+        <div class="container">
+          <section class="online" id="online">
+            <h2 class="online-title section-title">Online booking</h2>
+            <form action="#" class="online-form">
+              <div class="online-input-wrap">
+                <input
+                  type="text"
+                  name="online-name"
+                  placeholder="Name*"
+                  class="online-input"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="online-tel"
+                  placeholder="Phone*"
+                  class="online-input"
+                  required
+                />
+              </div>
+              <textarea
+                name="online-text"
+                class="online-text"
+                placeholder="Message*"
+              >
+Your message:
+              </textarea>
+              <button type="submit" class="btn online-btn">Send</button>
+            </form>
+          </section>
+          <section class="contacts">
+            <h2 class="contacts-title section-title">Contacts</h2>
+            <address class="contacts-address">
+              <ul class="contacts-list list">
+                <li class="contacts-item">
+                  <a
+                    class="contacts-link link"
+                    href="https://goo.gl/maps/5Fsen3EQHM8j56xj8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p class="adress-text">
+                      <svg class="contacts-icon" width="24" height="24">
+                        <use href="./img/icons.svg#icon-map-pin"></use>
+                      </svg>
+                      Vasylkova Street, 7A, Kyiv, 08132
+                    </p></a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a class="contacts-link link" href="tel:+380441111111">
+                    <svg class="contacts-icon" width="24" height="24">
+                      <use href="./img/icons.svg#icon-phone"></use>
+                    </svg>
+                    +38 044 111 11 11</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a class="contacts-link" href="mailto:barbershop@email.com">
+                    <svg class="contacts-icon" width="24" height="24">
+                      <use href="./img/icons.svg#icon-mail"></use>
+                    </svg>
+                    barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="contacts-bottom-title pre-title">working hours</p>
+            <p class="contacts-bottom-text">Daily from 9:00 AM to 10:00 PM</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="footer-copy">&copy; Copyright 2023</p>
+        <ul class="footer-list list pre-title">
+          <li class="footer-item">
+            <a href="" class="footer-link link">Instagram</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link link">Youtube</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="close-icon" width="18" height="18">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Contact Form</p>
+        <form action="#" class="modal-form">
+          <div class="modal-form-field">
+            <label for="user-name" class="modal-input-text"
+              >Enter your name</label
+            >
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                minlength="2"
+                name="user-name"
+                class="modal-input"
+                placeholder="Enter your name *"
+                required="required"
+                id="user-name"
+              />
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-email" class="modal-input-text">
+              Enter your email</label
+            >
+            <div class="modal-input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                placeholder="Enter your email *"
+                id="user-email"
+              />
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-tel" class="modal-input-text">
+              Enter your number</label
+            >
+            <div class="modal-input-wrap">
+              <input
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                class="modal-input"
+                required
+                placeholder="+40 (074) 111-11-11 *"
+              />
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label for="user-text" class="modal-input-text">
+              Enter your comment</label
+            >
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-text"
+              placeholder="Enter text"
+              maxlength="10"
+            ></textarea>
+          </div>
+
+          <div class="modal-form-field">
+            <input
+              type="checkbox"
+              name="policy"
+              id="modal-check"
+              class="modal-check visually-hidden"
+            />
+            <label for="modal-check" class="modal-check-text">
+              <span
+                ><svg class="icon-check" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              The text relates to the usage policy</label
+            >
+          </div>
+
+          <button type="submit" class="btn modal-btn">
+            submit
+            <svg class="input-btn-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
